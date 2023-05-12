@@ -1,0 +1,13 @@
+[project]
+name="shape_nerf"
+version="0.1.0"
+
+dependencies=[
+    "nerfstudio==0.2.1"
+]
+
+[tool.setuptools.packages.find]
+include=["shape_nerf*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+shape_nerf="shape_nerf.config:shape_nerf_base"

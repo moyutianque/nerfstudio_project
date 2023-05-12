@@ -1,0 +1,11 @@
+data/
+outputs/
+outs/
+shape_nerf_project/outputs/
+shape_nerf_project/renders/
+
+__pycache__/
+
+*.mp4
+*.png
+*.npy

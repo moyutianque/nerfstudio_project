@@ -1,0 +1,2 @@
+[nerfstudio.method_configs]
+shape_nerf = shape_nerf.config:shape_nerf_base
